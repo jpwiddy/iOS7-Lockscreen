@@ -14,13 +14,18 @@
 		D443D8E91832BDC700B747EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D443D8E81832BDC700B747EE /* main.m */; };
 		D443D8ED1832BDC700B747EE /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D443D8EC1832BDC700B747EE /* JWAppDelegate.m */; };
 		D443D8F01832BDC700B747EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D443D8EE1832BDC700B747EE /* Main.storyboard */; };
-		D443D8F31832BDC700B747EE /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D443D8F21832BDC700B747EE /* JWViewController.m */; };
 		D443D8F51832BDC700B747EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D443D8F41832BDC700B747EE /* Images.xcassets */; };
 		D443D8FC1832BDC700B747EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D443D8FB1832BDC700B747EE /* XCTest.framework */; };
 		D443D8FD1832BDC700B747EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D443D8DC1832BDC700B747EE /* Foundation.framework */; };
 		D443D8FE1832BDC700B747EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D443D8E01832BDC700B747EE /* UIKit.framework */; };
 		D443D9061832BDC700B747EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D443D9041832BDC700B747EE /* InfoPlist.strings */; };
 		D443D9081832BDC700B747EE /* LockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D443D9071832BDC700B747EE /* LockDemoTests.m */; };
+		D4A0A2021832C22400262A8E /* JWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0A2011832C22400262A8E /* JWViewController.m */; };
+		D4A0A2051832C24900262A8E /* JWLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A0A2041832C24900262A8E /* JWLockViewController.m */; };
+		D4A0A20A1832C27D00262A8E /* colorfulHex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4A0A2061832C27D00262A8E /* colorfulHex.jpg */; };
+		D4A0A20B1832C27D00262A8E /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0A2071832C27D00262A8E /* lock.png */; };
+		D4A0A20C1832C27D00262A8E /* lockPadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0A2081832C27D00262A8E /* lockPadImage.png */; };
+		D4A0A20D1832C27D00262A8E /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0A2091832C27D00262A8E /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,20 @@
 		D443D8EB1832BDC700B747EE /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
 		D443D8EC1832BDC700B747EE /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
 		D443D8EF1832BDC700B747EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D443D8F11832BDC700B747EE /* JWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWViewController.h; sourceTree = "<group>"; };
-		D443D8F21832BDC700B747EE /* JWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWViewController.m; sourceTree = "<group>"; };
 		D443D8F41832BDC700B747EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D443D8FA1832BDC700B747EE /* LockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D443D8FB1832BDC700B747EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D443D9031832BDC700B747EE /* LockDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D443D9051832BDC700B747EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D443D9071832BDC700B747EE /* LockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockDemoTests.m; sourceTree = "<group>"; };
+		D4A0A2001832C22400262A8E /* JWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWViewController.h; path = Controllers/JWViewController.h; sourceTree = "<group>"; };
+		D4A0A2011832C22400262A8E /* JWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWViewController.m; path = Controllers/JWViewController.m; sourceTree = "<group>"; };
+		D4A0A2031832C24900262A8E /* JWLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWLockViewController.h; path = Controllers/JWLockViewController.h; sourceTree = "<group>"; };
+		D4A0A2041832C24900262A8E /* JWLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWLockViewController.m; path = Controllers/JWLockViewController.m; sourceTree = "<group>"; };
+		D4A0A2061832C27D00262A8E /* colorfulHex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = colorfulHex.jpg; path = Media/colorfulHex.jpg; sourceTree = "<group>"; };
+		D4A0A2071832C27D00262A8E /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = Media/lock.png; sourceTree = "<group>"; };
+		D4A0A2081832C27D00262A8E /* lockPadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lockPadImage.png; path = Media/lockPadImage.png; sourceTree = "<group>"; };
+		D4A0A2091832C27D00262A8E /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = Media/settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +123,11 @@
 		D443D8E21832BDC700B747EE /* LockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4A0A1FF1832C20100262A8E /* Controllers */,
+				D4A0A1FD1832C1F300262A8E /* Media */,
 				D443D8EB1832BDC700B747EE /* JWAppDelegate.h */,
 				D443D8EC1832BDC700B747EE /* JWAppDelegate.m */,
 				D443D8EE1832BDC700B747EE /* Main.storyboard */,
-				D443D8F11832BDC700B747EE /* JWViewController.h */,
-				D443D8F21832BDC700B747EE /* JWViewController.m */,
 				D443D8F41832BDC700B747EE /* Images.xcassets */,
 				D443D8E31832BDC700B747EE /* Supporting Files */,
 			);
@@ -150,6 +161,28 @@
 				D443D9041832BDC700B747EE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4A0A1FD1832C1F300262A8E /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D4A0A2061832C27D00262A8E /* colorfulHex.jpg */,
+				D4A0A2071832C27D00262A8E /* lock.png */,
+				D4A0A2081832C27D00262A8E /* lockPadImage.png */,
+				D4A0A2091832C27D00262A8E /* settings.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		D4A0A1FF1832C20100262A8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4A0A2001832C22400262A8E /* JWViewController.h */,
+				D4A0A2011832C22400262A8E /* JWViewController.m */,
+				D4A0A2031832C24900262A8E /* JWLockViewController.h */,
+				D4A0A2041832C24900262A8E /* JWLockViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D443D8F51832BDC700B747EE /* Images.xcassets in Resources */,
+				D4A0A20D1832C27D00262A8E /* settings.png in Resources */,
+				D4A0A20B1832C27D00262A8E /* lock.png in Resources */,
+				D4A0A20C1832C27D00262A8E /* lockPadImage.png in Resources */,
+				D4A0A20A1832C27D00262A8E /* colorfulHex.jpg in Resources */,
 				D443D8E71832BDC700B747EE /* InfoPlist.strings in Resources */,
 				D443D8F01832BDC700B747EE /* Main.storyboard in Resources */,
 			);
@@ -251,7 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D443D8E91832BDC700B747EE /* main.m in Sources */,
-				D443D8F31832BDC700B747EE /* JWViewController.m in Sources */,
+				D4A0A2021832C22400262A8E /* JWViewController.m in Sources */,
+				D4A0A2051832C24900262A8E /* JWLockViewController.m in Sources */,
 				D443D8ED1832BDC700B747EE /* JWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +499,7 @@
 				D443D90D1832BDC700B747EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D443D90E1832BDC700B747EE /* Build configuration list for PBXNativeTarget "LockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +508,7 @@
 				D443D9101832BDC700B747EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
